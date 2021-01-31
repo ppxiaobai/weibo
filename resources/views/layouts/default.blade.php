@@ -2,8 +2,10 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@yield('title','Weibo App') - Laravel 新手入门教程</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
 </head>
 
 <body>
