@@ -26,3 +26,6 @@ Route::get('/about', 'StaticPagesController@about')->name("about");
 
 //用户注册
 Route::get("signup", "UsersController@create")->name("signup");
+
+//显示用户信息
+Route::resource('users', 'UsersController');
